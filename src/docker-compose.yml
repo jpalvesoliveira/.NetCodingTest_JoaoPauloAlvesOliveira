@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  icatu.employeemanagerapi:
+    image: icatu.employeemanagerapi
+    build:
+      context: ./Icatu.EmployeeManagerAPI
+      dockerfile: Dockerfile

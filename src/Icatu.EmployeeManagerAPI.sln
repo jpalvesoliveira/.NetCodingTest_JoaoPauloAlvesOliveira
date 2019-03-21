@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Icatu.EmployeeManagerAPI", "Icatu.EmployeeManagerAPI\Icatu.EmployeeManagerAPI.csproj", "{5B17ACDA-0205-42FE-B163-BC7A045B91B4}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2E7234AB-E771-44F9-9111-D8946A7FD73D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Icatu.EmployerManagerAPI.Core", "Icatu.EmployerManagerAPI.Model\Icatu.EmployerManagerAPI.Core.csproj", "{ED1DA00B-A1EC-48FB-919B-EB524F19C78E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Icatu.EmployerManagerAPI.Infrastructure", "Icatu.EmployerManagerAPI.Infrastructure\Icatu.EmployerManagerAPI.Infrastructure.csproj", "{2298E348-7005-4200-8D2D-17F7F6ECB77C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icatu.EmployeeManagerAPI.Tests", "Icatu.EmployeeManagerAPI.Tests\Icatu.EmployeeManagerAPI.Tests.csproj", "{A8369BD4-10AC-4C5A-816E-31B2F14EAD81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B17ACDA-0205-42FE-B163-BC7A045B91B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B17ACDA-0205-42FE-B163-BC7A045B91B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B17ACDA-0205-42FE-B163-BC7A045B91B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B17ACDA-0205-42FE-B163-BC7A045B91B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E7234AB-E771-44F9-9111-D8946A7FD73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7234AB-E771-44F9-9111-D8946A7FD73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7234AB-E771-44F9-9111-D8946A7FD73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7234AB-E771-44F9-9111-D8946A7FD73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED1DA00B-A1EC-48FB-919B-EB524F19C78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1DA00B-A1EC-48FB-919B-EB524F19C78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1DA00B-A1EC-48FB-919B-EB524F19C78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1DA00B-A1EC-48FB-919B-EB524F19C78E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2298E348-7005-4200-8D2D-17F7F6ECB77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2298E348-7005-4200-8D2D-17F7F6ECB77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2298E348-7005-4200-8D2D-17F7F6ECB77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2298E348-7005-4200-8D2D-17F7F6ECB77C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8369BD4-10AC-4C5A-816E-31B2F14EAD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8369BD4-10AC-4C5A-816E-31B2F14EAD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8369BD4-10AC-4C5A-816E-31B2F14EAD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8369BD4-10AC-4C5A-816E-31B2F14EAD81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF4F35E1-A78A-4B22-A41D-FDC95B8DC65E}
+	EndGlobalSection
+EndGlobal
